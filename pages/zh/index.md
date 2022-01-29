@@ -1,19 +1,13 @@
+#风影之上-Github
+
 ## 欢迎来到风影之上的Github博客！
 
-如果你是英文用户，可以[进入英文页面](https://fengyingzhishang.github.io)。当然，你也可以继续使用中文页面。
+如果你是英文用户，可以[进入英文页面](https://fengyingzhishang.github.io) 。请注意，如果你的中文水平够好，这里非常建议你使用中文，因为中文版面会及时更新，英文页面是好友帮忙翻译，最新的文章等等都在中文版面之中。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+一个垃圾小学生，刚初步学习编程的家伙 [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### 关于我
 
-awa，好多页面还没有完工，敬请期待！
+一个垃圾小学生，刚初步学习编程的家伙。欢迎访问 [我的Github主页] (https://github.com/fengyingzhishang) 这里有些我制作的小项目，有兴趣可以看一看awa。
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fengyingzhishang/ac.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+版权所有©2020-2022，风影之上（fengyingzhishang，fyzs，aboveshadow，above the wind shadow...... [详情请参考版权页] (https://fengyingzhishang.github.io/pages/zh/copyrightpage) ）
