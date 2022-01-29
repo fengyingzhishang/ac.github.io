@@ -6,4 +6,4 @@
 
 一个垃圾小学生，刚初步学习编程的家伙。欢迎访问 [我的Github主页](https://github.com/fengyingzhishang) 这里有些我制作的小项目，有兴趣可以看一看awa。
 
-版权所有©2020-2022，风影之上（fengyingzhishang，fyzs，aboveshadow，above the wind shadow...... [详情请参考版权页](https://fengyingzhishang.github.io/pages/zh/copyrightpage) ）
+版权所有©2020-2022，风影之上（fengyingzhishang，fyzs，aboveshadow，above the wind shadow...... [详情请参考版权页](https://fengyingzhishang.github.io/pages/zh/copyrightpage.html) ）
