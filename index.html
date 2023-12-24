@@ -29,7 +29,8 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home|主页</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About|关于</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="blog.html">Blog|博客</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Chat|茶馆</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="chat.html">Chat|茶馆</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="project.html">Project|项目</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,33 +41,61 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Hey! How are you?</h1>
+                            <h1>海上生明月<br>天涯共此时</h1>
                             <span class="subheading">The more difficult something is，the more rewarding it is in the end.——《大鱼》</span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Main Content-->
+        <!-- Main Content--> 
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Post preview-->
+                    <!-- 获取时间-->
+                    <p class="timer-wrapper">
+                       ||Now time:<a></a>
+                    </p>
+                    
+                    <!-- 文章-->
                     <div class="post-preview">
+                        <p>| 文章</p>
                         <a href="page.html">
                             <h2 class="post-title">第一篇文章</h2>
                             <h3 class="post-subtitle">这是一个新的开始。</h3>
                         </a>
                         <p class="post-meta">
                             Posted by
-                            <a href="#!">Fengying</a>
+                            <a href="about.html">Fengying</a>
                             on June 18, 2023
                         </p>
                     </div>
                     <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="blog.html">所有的文章 →</a></div>
+                    <!-- 项目-->
+                    <p>| 项目</p>
+                    <div class="post-preview">
+                        <a href="pages/xingjitest/index.html">
+                            <h3 class="post-title">· 行迹工作室官网正在搭建中！</h3>
+                            <h5 class="post-subtitle">新年新计划！开启2024行迹新征程的第一步！<br>本网站将整合行迹工作室旗下所有附属工作室的特色，一一呈现出来，现在进入公测阶段，所有页面尚不完备，欢迎各位进行反馈！</h5>
+                            <h6 class="post-meta">By Fengying on December 24,2023</h6>
+                        </a>
+                    </div>
+                     <!-- 友链-->
+                    <p >| 友情链接</p>
+                    <a href="https://buger404.github.io">
+                    Buger404
+                    </a>
+                    <a href="https://weypro.github.io/">
+                    Wey文叶
+                    </a>
+                    <a href="https://xxs2.cn/">小学生</a>
+                    <a href="https://sweeticelolly.github.io/">冰棍</a>
+                    <a>feng_an</a>
                 </div>
             </div>
         </div>
+
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
@@ -82,7 +111,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; 2019-2023 Fengyingzhishang</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; 2019-2023 Fengyingzhishang<br>*本网站使用的所有图片均来自网络，侵权删</div>
                     </div>
                 </div>
             </div>
@@ -92,4 +121,32 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+    <script type="text/javascript">
+           
+      /*
+      *这是一个获取当前日期的函数
+       */
+      function showLocaleDate(objb){
+       var str = objb.getFullYear()+"年"+(objb.getMonth()+1)+"月"+objb.getDate()+"日";
+       var weekArray = new Array("日", "一", "二", "三", "四", "五", "六"); 
+       var week = objb.getDay(); 
+       var weekString = "星期"+ weekArray[week];
+       var hh = objb.getHours();
+       if(hh<10) hh = '0' + hh;
+       var mm = objb.getMinutes();
+       if(mm<10) mm = '0' + mm;
+       var ss = objb.getSeconds();
+       if(ss<10) ss = '0' + ss;
+       var reflash=hh + ":" + mm + ":" + ss;
+       var date = str +","+ weekString +","+ reflash;
+       return date;
+      }
+      var date=document.getElementsByClassName('timer-wrapper')[0].getElementsByTagName('a')[0];
+      function showTime(){
+       var today=new Date();
+       date.innerHTML=showLocaleDate(today);
+        window.setTimeout("showTime()",1000);
+      }
+      showTime();
+    </script>
 </html>
